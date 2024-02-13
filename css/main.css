@@ -18,6 +18,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
 }
 
+p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    max-width: 800px;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -27,7 +33,9 @@ a {
     text-decoration: none;
     color: #ff8800;
 }
-
+a:hover {
+    color: #666666;
+}
 /********** STYLE HEADER *********/
 header {
     padding: 1rem;
